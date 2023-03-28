@@ -1,7 +1,8 @@
 FROM openjdk:17
 
-WORKDIR /Users/jimenezalfonso/dockerSae 
+WORKDIR /scrutateur
 
-COPY . /Users/jimenezalfonso/dockerSae 
+COPY . /scrutateur
 
 CMD ["java", "-jar", "Serveur-1.0.jar"]
+
